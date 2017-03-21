@@ -6,8 +6,11 @@ A working sample of a blog the [Setting up a local Selenium Grid using Docker an
 
 From the root of the repo run the following commands:
 
-- Step 1:
+Step 1:  
 `docker compose up`
 
-- Step 2:
+Step 2:  
+`dotnet restore`
+
+Step 3:    
 `dotnet test`
